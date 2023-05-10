@@ -1,0 +1,38 @@
+{
+  "name": "star-life-guard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings index.js",
+    "dev": "npm run clear && node --trace-warnings index.js",
+    "clear": "clear || cls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starmarketingonline/star-life-guard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starmarketingonline/star-life-guard/issues"
+  },
+  "homepage": "https://github.com/starmarketingonline/star-life-guard#readme",
+  "dependencies": {
+    "@sentry/node": "^7.47.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "logger": "^0.0.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.40",
+    "mongoose": "^6.8.4",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "sentry": "^0.1.2",
+    "shelljs": "^0.8.5"
+  }
+}
